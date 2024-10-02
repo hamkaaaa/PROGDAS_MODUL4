@@ -28,3 +28,9 @@ string pemenang(string pemain, string komputer) {
         return "Komputer menang!";
     }
 }
+
+void hasil(string pilihanPemain, string pilihanKomputer, string result) {
+    cout << "Pilihan Anda: " << pilihanPemain << endl;
+    cout << "Pilihan komputer: " << pilihanKomputer << endl;
+    cout << "Hasil: " << result << endl;
+}
