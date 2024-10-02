@@ -11,11 +11,3 @@ string getPilihan() {
     return pilihan;
 }
 
-int main() {
-    // Contoh penggunaan fungsi getPilihan
-    string pilihanUser = getPilihan();
-    cout << "Anda memilih: " << pilihanUser << endl;
-
-    return 0;
-}
-
