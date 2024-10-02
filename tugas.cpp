@@ -25,3 +25,6 @@ string pemenang(string pemain, string komputer) {
              (pemain == "kertas" && komputer == "batu")) {
         return "Anda menang!";
     } else {
+        return "Komputer menang!";
+    }
+}
