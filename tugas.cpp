@@ -4,7 +4,7 @@
 
 using namespace std;
 
-string getPilihan() {
+string pilihan() {
     string pilihan;
     cout << "Masukkan pilihan Anda (gunting, batu, kertas): ";
     cin >> pilihan;
