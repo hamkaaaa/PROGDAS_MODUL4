@@ -20,19 +20,17 @@ string komputer() {
 
 string pemenang(string pemain, string komputer) {
     if (pemain == komputer) return "Seri!";
-    else if ((pemain == "gunting" && komputer == "kertas") || 
-             (pemain == "batu" && komputer == "gunting") || 
-             (pemain == "kertas" && komputer == "batu")) {
+    else if ((pemain == "gunting" && komputer == "kertas") || (pemain == "batu" && komputer == "gunting") || (pemain == "kertas" && komputer == "batu")) {
         return "Anda menang!";
     } else {
         return "Komputer menang!";
-    }
+}
 }
 
 void hasil(string pilihanPemain, string pilihanKomputer, string result) {
     cout << "Pilihan Anda: " << pilihanPemain << endl;
     cout << "Pilihan komputer: " << pilihanKomputer << endl;
-    cout << "Hasil: " << result << endl;
+    cout << "Hasil: " << result<<endl;
 }
 
 int main() {
@@ -53,5 +51,5 @@ int main() {
 
     cout << "Terima kasih telah bermain!" << endl;
 
-    return 0;
+    return 0;
 }
